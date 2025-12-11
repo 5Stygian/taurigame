@@ -1,3 +1,3 @@
-import Greet from './greet';
+import Greet from './misc/greet';
 
 export {}
