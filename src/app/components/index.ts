@@ -1,4 +1,4 @@
-/** import/export every component here here */
+/** import/export every component here */
 
 import Greet from './misc/greet';
 
