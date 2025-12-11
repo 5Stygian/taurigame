@@ -19,6 +19,6 @@ export default function Greet({ text }: GreetProps) {
     }, []);
   
   return (
-    <span className="text-7x1">{text}</span>
+    <span className="text-9xl mx-auto text-center">{text}</span>
   );
 }
