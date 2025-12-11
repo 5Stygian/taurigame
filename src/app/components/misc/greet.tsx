@@ -6,7 +6,6 @@ Status: it doesnt work
 
 'use client'
 
-import { invoke } from '@tauri-apps/api/core';
 import { ReactElement, useEffect, useState } from 'react';
 
 interface GreetProps {
