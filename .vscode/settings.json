@@ -1,5 +1,10 @@
 {
     "cSpell.words": [
-        "nxlint"
+        "cdylib",
+        "nxlint",
+        "rlib",
+        "serde",
+        "staticlib",
+        "tauri"
     ]
 }
