@@ -1,3 +1,5 @@
+/** this is a test to see if IPC works on a browser */
+
 'use client'
 
 import { invoke } from '@tauri-apps/api/core';
