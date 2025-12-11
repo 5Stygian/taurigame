@@ -1,4 +1,8 @@
-/** this is a test to see if IPC works on a browser */
+/**
+This is a test to see if IPC works on a web deployment
+
+Status: it doesnt work
+*/
 
 'use client'
 
@@ -10,13 +14,15 @@ interface GreetProps {
 }
 
 export default function Greet({ text }: GreetProps) {
+  /*
   const [text, setText] = useState<string>('');
 
   useEffect(() => {
         invoke<string>('greet', { greet: {text} }).then((result) => {
             setText(result);
         });
-    }, []);
+  }, []);
+  */
   
   return (
     <span className="text-9xl mx-auto text-center">{text}</span>
